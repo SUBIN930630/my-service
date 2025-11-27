@@ -1,7 +1,1 @@
-[00:00:00.833] Server  LOG      ✓ Ready in 585ms
-[00:07:24.924] Server  LOG      ✓ Compiled in 34ms
-[00:07:47.968] Server  LOG      ✓ Compiled in 28ms
-[00:09:34.498] Server  LOG      ✓ Compiled in 31ms
-[00:10:06.286] Server  LOG      ✓ Compiled in 36ms
-[00:11:26.779] Server  LOG      ✓ Compiled in 36ms
-[00:11:43.019] Server  WARN    Error: Route "/product/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:00.664] Server  LOG      ✓ Ready in 451ms

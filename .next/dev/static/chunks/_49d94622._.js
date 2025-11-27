@@ -119,75 +119,101 @@ function RecommendPage() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mb-4 rounded-lg border border-white/6 bg-[#181a1e] p-4 text-sm",
+                            children: extracted ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-2 text-sm text-white",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            "직업: ",
+                                            extracted.occupation
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/recommend/page.tsx",
+                                        lineNumber: 77,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            "소득: ",
+                                            extracted.incomeRange
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/recommend/page.tsx",
+                                        lineNumber: 78,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            "신용: ",
+                                            extracted.creditScore
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/recommend/page.tsx",
+                                        lineNumber: 79,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            "목적: ",
+                                            extracted.loanPurpose
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/recommend/page.tsx",
+                                        lineNumber: 80,
+                                        columnNumber: 17
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/recommend/page.tsx",
+                                lineNumber: 76,
+                                columnNumber: 15
+                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-2 text-sm text-white/50",
+                                children: "추출된 정보가 없습니다."
+                            }, void 0, false, {
+                                fileName: "[project]/app/recommend/page.tsx",
+                                lineNumber: 83,
+                                columnNumber: 15
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/recommend/page.tsx",
+                            lineNumber: 74,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "mt-6 mb-4",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "text-xs text-white/60",
-                                    children: "추출 결과"
+                                    className: "text-base font-semibold text-white",
+                                    children: "추천 상품"
                                 }, void 0, false, {
                                     fileName: "[project]/app/recommend/page.tsx",
-                                    lineNumber: 75,
+                                    lineNumber: 88,
                                     columnNumber: 13
                                 }, this),
-                                extracted ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mt-2 text-sm text-white",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "mt-2 text-sm text-white/60",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            children: [
-                                                "직업: ",
-                                                extracted.occupation
-                                            ]
-                                        }, void 0, true, {
+                                        "고객님께 맞는 상품 ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "text-[#3B82F6] font-semibold",
+                                            children: "3개"
+                                        }, void 0, false, {
                                             fileName: "[project]/app/recommend/page.tsx",
-                                            lineNumber: 78,
-                                            columnNumber: 17
+                                            lineNumber: 89,
+                                            columnNumber: 68
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            children: [
-                                                "소득: ",
-                                                extracted.incomeRange
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/recommend/page.tsx",
-                                            lineNumber: 79,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            children: [
-                                                "신용: ",
-                                                extracted.creditScore
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/recommend/page.tsx",
-                                            lineNumber: 80,
-                                            columnNumber: 17
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            children: [
-                                                "목적: ",
-                                                extracted.loanPurpose
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/app/recommend/page.tsx",
-                                            lineNumber: 81,
-                                            columnNumber: 17
-                                        }, this)
+                                        "를 추천드려요"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/recommend/page.tsx",
-                                    lineNumber: 77,
-                                    columnNumber: 15
-                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mt-2 text-sm text-white/50",
-                                    children: "추출된 정보가 없습니다."
-                                }, void 0, false, {
-                                    fileName: "[project]/app/recommend/page.tsx",
-                                    lineNumber: 84,
-                                    columnNumber: 15
+                                    lineNumber: 89,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/recommend/page.tsx",
-                            lineNumber: 74,
+                            lineNumber: 87,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -204,12 +230,12 @@ function RecommendPage() {
                                                 children: "추천"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/recommend/page.tsx",
-                                                lineNumber: 98,
+                                                lineNumber: 102,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/recommend/page.tsx",
-                                            lineNumber: 97,
+                                            lineNumber: 101,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -228,7 +254,7 @@ function RecommendPage() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/app/recommend/page.tsx",
-                                                                    lineNumber: 105,
+                                                                    lineNumber: 109,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -236,13 +262,13 @@ function RecommendPage() {
                                                                     children: p.rate
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/recommend/page.tsx",
-                                                                    lineNumber: 106,
+                                                                    lineNumber: 110,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/recommend/page.tsx",
-                                                            lineNumber: 104,
+                                                            lineNumber: 108,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -253,13 +279,13 @@ function RecommendPage() {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/recommend/page.tsx",
-                                                            lineNumber: 108,
+                                                            lineNumber: 112,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/recommend/page.tsx",
-                                                    lineNumber: 103,
+                                                    lineNumber: 107,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -270,7 +296,7 @@ function RecommendPage() {
                                                             children: p.monthly
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/recommend/page.tsx",
-                                                            lineNumber: 111,
+                                                            lineNumber: 115,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -279,31 +305,31 @@ function RecommendPage() {
                                                             children: "신청하기"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/recommend/page.tsx",
-                                                            lineNumber: 112,
+                                                            lineNumber: 116,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/recommend/page.tsx",
-                                                    lineNumber: 110,
+                                                    lineNumber: 114,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/recommend/page.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 106,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, p.id, true, {
                                     fileName: "[project]/app/recommend/page.tsx",
-                                    lineNumber: 92,
+                                    lineNumber: 96,
                                     columnNumber: 17
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/app/recommend/page.tsx",
-                            lineNumber: 88,
+                            lineNumber: 92,
                             columnNumber: 11
                         }, this)
                     ]

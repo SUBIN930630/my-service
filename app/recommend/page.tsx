@@ -72,7 +72,6 @@ export default function RecommendPage() {
       <main className="flex flex-1 items-start px-5 py-6 pb-20">
         <div className="mx-auto w-full max-w-md">
           <div className="mb-4 rounded-lg border border-white/6 bg-[#181a1e] p-4 text-sm">
-            <div className="text-xs text-white/60">추출 결과</div>
             {extracted ? (
               <div className="mt-2 text-sm text-white">
                 <div>직업: {extracted.occupation}</div>
@@ -83,6 +82,11 @@ export default function RecommendPage() {
             ) : (
               <div className="mt-2 text-sm text-white/50">추출된 정보가 없습니다.</div>
             )}
+          </div>
+
+          <div className="mt-6 mb-4">
+            <div className="text-base font-semibold text-white">추천 상품</div>
+            <div className="mt-2 text-sm text-white/60">고객님께 맞는 상품 <span className="text-[#3B82F6] font-semibold">3개</span>를 추천드려요</div>
           </div>
 
           <div className="flex flex-col gap-3">
