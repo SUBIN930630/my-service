@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import {
   Home as HomeIcon,
   Gift,
@@ -19,9 +20,17 @@ const quickQuestions = [
 export default function Home() {
   const [activeTab, setActiveTab] = useState("home");
   const [selectedQuestion, setSelectedQuestion] = useState<string | null>(null);
+  const router = useRouter();
 
   const handleQuestionSelect = (question: string) => {
+    // Save selected question and start extraction flow
     setSelectedQuestion(question);
+    try {
+      sessionStorage.setItem("selectedQuestion", question);
+    } catch (e) {
+      // ignore in SSR or privacy modes
+    }
+    router.push("/extract");
   };
 
   return (
